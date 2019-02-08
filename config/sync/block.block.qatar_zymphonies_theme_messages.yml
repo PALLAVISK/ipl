@@ -1,0 +1,22 @@
+uuid: a0e5c61f-8dc3-45f1-b44b-5a698a8255f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: ImIJtJkKCVJjBeI1RdTR5CLV6LLriNurnb_avfYR9_k
+id: qatar_zymphonies_theme_messages
+theme: qatar_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

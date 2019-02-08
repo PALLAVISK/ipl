@@ -1,0 +1,22 @@
+uuid: 0a9cfff1-c03b-4cdb-a5ed-e876223f79ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ipl
+  module:
+    - text
+id: node.ipl.body
+field_name: body
+entity_type: node
+bundle: ipl
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,21 @@
+uuid: 00b7af1d-9f73-4c4d-af45-631bf3789e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_players
+    - node.type.ipl
+id: node.ipl.field_players
+field_name: field_players
+entity_type: node
+bundle: ipl
+label: Players
+description: 'All players are here.'
+required: false
+translatable: false
+default_value:
+  -
+    value: team
+default_value_callback: ''
+settings: {  }
+field_type: string

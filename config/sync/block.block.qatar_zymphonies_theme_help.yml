@@ -1,0 +1,22 @@
+uuid: 3bb54354-155f-4438-b116-f3c5591f2aac
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: Ln-dXKveK1nYhwRrLUrepCv4a3oGnAzQ1oIxGSGonxA
+id: qatar_zymphonies_theme_help
+theme: qatar_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

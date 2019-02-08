@@ -1,0 +1,29 @@
+uuid: e6f79251-d938-43e6-b98d-092d41afcae8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team
+    - node.type.ipl
+    - taxonomy.vocabulary.teams
+id: node.ipl.field_team
+field_name: field_team
+entity_type: node
+bundle: ipl
+label: Team
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teams: teams
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

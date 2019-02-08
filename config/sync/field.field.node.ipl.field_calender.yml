@@ -1,0 +1,21 @@
+uuid: 4a205284-277d-4dd0-9d73-4086f4f7fe45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calender
+    - node.type.ipl
+  module:
+    - datetime
+id: node.ipl.field_calender
+field_name: field_calender
+entity_type: node
+bundle: ipl
+label: calender
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

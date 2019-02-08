@@ -1,0 +1,22 @@
+uuid: 7cc74fee-b2f8-4896-a94c-f70db404f8b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: YBAUGmctznL5KIQYlkGmej6oaZeinMKOrfN0e1yt6Uo
+id: qatar_zymphonies_theme_powered
+theme: qatar_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 59d7c4c4-8b29-4370-b062-5a72b9950fc9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: rP-hEYx_k3xLTSDPgZl0Dp1-fDnxPvrsi3FqhvcE1fQ
+id: qatar_zymphonies_theme_page_title
+theme: qatar_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

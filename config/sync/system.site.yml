@@ -1,0 +1,14 @@
+uuid: 526435ac-88fd-4ac2-a3d9-76b313839aa2
+name: Sports
+mail: abc@mailinator.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

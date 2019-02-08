@@ -1,0 +1,9 @@
+uuid: 896f65b2-6ff7-4724-b0ac-9f222fea9bca
+langcode: en
+status: true
+dependencies: {  }
+name: Teams
+vid: teams
+description: 'Teams of IPL'
+hierarchy: 0
+weight: 0

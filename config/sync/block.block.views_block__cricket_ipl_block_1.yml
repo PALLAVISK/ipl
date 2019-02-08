@@ -1,0 +1,30 @@
+uuid: b5a1cfab-8d7d-4b31-aefc-b11ee6747cd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cricket_ipl
+  module:
+    - system
+    - views
+  theme:
+    - qatar_zymphonies_theme
+id: views_block__cricket_ipl_block_1
+theme: qatar_zymphonies_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:cricket_ipl-block_1'
+settings:
+  id: 'views_block:cricket_ipl-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

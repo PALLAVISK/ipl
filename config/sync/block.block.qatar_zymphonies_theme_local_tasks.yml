@@ -1,0 +1,22 @@
+uuid: 66691a41-40fe-4fb6-944f-ea0c8e501099
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: Y1FimOh3dc_lABMLirY29rE_-9aPX6C0xCULYLZiS-Y
+id: qatar_zymphonies_theme_local_tasks
+theme: qatar_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

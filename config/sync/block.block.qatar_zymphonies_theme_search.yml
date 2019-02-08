@@ -1,0 +1,22 @@
+uuid: 719ecb91-d9e3-46c6-a9dd-e34b5bc63e45
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: cK_T8Of7HzSVCWtEFtziLcAb3QGukRtTQIM6YqQb8jg
+id: qatar_zymphonies_theme_search
+theme: qatar_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

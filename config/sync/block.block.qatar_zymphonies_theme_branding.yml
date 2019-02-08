@@ -1,0 +1,25 @@
+uuid: 3f37ae60-c6cc-4ef9-a437-e837d836b04c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: vDDBgjEKzWFcTVHAKX09c-IFZiaJAm28bnhQumYrdB4
+id: qatar_zymphonies_theme_branding
+theme: qatar_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

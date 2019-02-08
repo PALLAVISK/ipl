@@ -1,0 +1,26 @@
+uuid: ffa6bfc9-bec6-41f9-8a79-c55dca2d0925
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - qatar_zymphonies_theme
+_core:
+  default_config_hash: RdqWbmPn_z1IxZORARkoDs90CZ83IS8FqcGz2LqPmTc
+id: qatar_zymphonies_theme_account_menu
+theme: qatar_zymphonies_theme
+region: user_menu
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

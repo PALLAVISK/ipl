@@ -1,0 +1,22 @@
+uuid: 346de055-1a96-4b4e-9309-bb2419a54a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_matches
+    - node.type.ipl
+  module:
+    - text
+id: node.ipl.field_matches
+field_name: field_matches
+entity_type: node
+bundle: ipl
+label: Matches
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
