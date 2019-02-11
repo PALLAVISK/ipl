@@ -1,0 +1,29 @@
+uuid: 6378a862-3723-4319-8f06-bcb93812e658
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_won_by
+    - node.type.schedule
+    - taxonomy.vocabulary.teams
+id: node.schedule.field_won_by
+field_name: field_won_by
+entity_type: node
+bundle: schedule
+label: 'won by'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teams: teams
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

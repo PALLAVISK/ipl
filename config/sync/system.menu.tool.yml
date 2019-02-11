@@ -1,0 +1,8 @@
+uuid: db6efafb-eeff-44f4-9327-2d28f754e574
+langcode: en
+status: true
+dependencies: {  }
+id: tool
+label: tool
+description: ''
+locked: false

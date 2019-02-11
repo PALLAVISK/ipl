@@ -1,0 +1,10 @@
+uuid: 61b287ca-6e70-444e-ad04-02401a0fb89d
+langcode: en
+status: true
+dependencies: {  }
+id: viewers
+label: viewers
+weight: 3
+is_admin: null
+permissions:
+  - 'access site reports'

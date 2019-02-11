@@ -1,0 +1,14 @@
+uuid: 782a66f7-58e9-4879-b016-18d9f7718988
+langcode: en
+status: true
+dependencies: {  }
+id: coach
+label: coach
+weight: 4
+is_admin: null
+permissions:
+  - 'access site reports'
+  - 'access taxonomy overview'
+  - 'create terms in teams'
+  - 'edit any ipl content'
+  - 'edit any page content'

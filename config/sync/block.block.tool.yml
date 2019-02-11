@@ -1,0 +1,24 @@
+uuid: d3e7919e-b5e9-4132-9483-eb60416676d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tool
+  module:
+    - system
+  theme:
+    - qatar_zymphonies_theme
+id: tool
+theme: qatar_zymphonies_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:tool'
+settings:
+  id: 'system_menu_block:tool'
+  label: tool
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

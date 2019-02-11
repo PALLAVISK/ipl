@@ -1,0 +1,20 @@
+uuid: be50ef71-7baa-417b-a1a9-4aee8b27d8ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_won_by
+field_name: field_won_by
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
